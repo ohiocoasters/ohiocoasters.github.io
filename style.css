@@ -173,7 +173,7 @@ width:750px;
 position:stic ;
 margin:0 auto;
 list-style:none;
- font-size: 15pt;
+ font-size: 20pt;
   font-family: 'Oswald', sans-serif;
 z-index: 2 !important;
 background-color: #1340c768;
@@ -267,6 +267,10 @@ outline: 5px solid rgba(255, 255, 255, 0.5);
   height: 50px;
   font-size: 140%;
   color: #ffffff;
+  position: relative;
+  top: 250px;
+  left: 200px;
+  
 
 
 
