@@ -70,7 +70,7 @@ li {
 }
 
 li a {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Oswald', sans-serif;
   display: block;
   color: white;
   text-align: center;
@@ -104,7 +104,7 @@ li a:hover {
 }
 
 #footer{
-  font-family: 'poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
   background-color: floralwhite;
   color: #3a57af;
   text-align: center;
@@ -124,7 +124,7 @@ li a:hover {
   height: 300px; /* Should be removed. Only for demonstration */
   color: white;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 /* Clear floats after the columns */
@@ -140,7 +140,7 @@ li a:hover {
 
 body {
   margin: 0;
- font-family: 'Poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 17px;
 }
 
