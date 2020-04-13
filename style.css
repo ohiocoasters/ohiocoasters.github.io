@@ -172,9 +172,8 @@ body {
 width:750px;
 position:stic ;
 margin:0 auto;
-  border-radius: 25px;
 list-style:none;
- font-size: 20pt;
+ font-size: 15pt;
   font-family: 'Oswald', sans-serif;
 z-index: 2 !important;
 background-color: #1340c768;
@@ -183,7 +182,6 @@ font-weight: heavy;
 
 .nav li {
 float:left;
-  border-radius: 25px;
 
 font-weight: bold;
 
@@ -198,7 +196,6 @@ font-weight: bold;
 display:block;
 text-align:center;
 width:150px; /* fixed width */
-  border-radius: 15px;
 
 
 text-decoration:none; 
@@ -206,11 +203,13 @@ color: #ffffff
 
 
 
+
 }
 
 .nav a:hover{
-background-color: #1340c730;
-  border-radius: 15px;
+background-color: #1340c759;
+outline: 5px solid rgba(255, 255, 255, 0.5);
+
 
 }
 
@@ -257,6 +256,18 @@ background-color: #1340c730;
   color: #ffffff;
     transition: top 0.2s ease-in-out;
   width: 100%;
+
+
+}
+.indexbuttons{
+  background-color: #1340c7;
+  outline: 3px solid rgb(255, 255, 255);
+  font-family: 'Oswald';
+  width: 150px;
+  height: 50px;
+  font-size: 140%;
+  color: #ffffff;
+
 
 
 }
