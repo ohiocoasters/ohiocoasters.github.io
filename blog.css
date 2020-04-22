@@ -9,6 +9,7 @@
     transform: translate(-50%, -50%);
     font-family: 'Oswald', sans-serif;
     font-size: 75pt;
+    color: white;
 }
     
 .heading{
@@ -127,7 +128,7 @@ left: 20px ;
   
   #navbar li a:hover {
     /* border-bottom: 1px solid rgb(28, 121, 184); */
-    color: rgb(28, 121, 184);
+    color: rgb(255, 255, 255);
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
   }
