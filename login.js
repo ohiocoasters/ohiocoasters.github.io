@@ -18,13 +18,10 @@ var pwd = document.getElementById('password');
 
 function login(){
 if (uname == "nicholasgardner" && pwd == "352970");{
-    window.open("https://www.ohiocoasters.github.io/admindashboard.htm","_self");
+    window.open("admindashboard.htm","_self");
 
 }
-else {
-    alert('incorrect username or password');
 
-  }
 
 }
-}
+
