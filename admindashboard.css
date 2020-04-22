@@ -14,7 +14,10 @@
     color: #fff;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
-    background-image: url("https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kings-island/poi/rides/banners/ki-mystictimbers-bannerv3.jpg");
+    background-image: url("https://static1.squarespace.com/static/57b1a2453e00be9be5f336d0/57b1fe8dcd0f686f17c3410c/59359374b8a79b18fd1cd785/1558465121604/KingsIsland_TheBeast3.jpg?format=2500w");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
   }
   
   /* Mobile First Format--Assign grid instructions to our parent grid container; hide the sidenav */
