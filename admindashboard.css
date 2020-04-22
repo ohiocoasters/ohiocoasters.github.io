@@ -132,7 +132,7 @@
     margin: 20px;
     padding: 20px; 
     height: 150px;
-    background-color: #415799;
+    background-color: #415799a1;
     color: slategray;
     border-radius: 10px;
     font-family: 'Oswald', sans-serif;
@@ -154,7 +154,7 @@
     padding: 20px;
     border-radius: 10px;
 
-    background-color: #284497;
+    background-color: #284497bd;
   }
   
   .main-cards {
@@ -170,7 +170,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #415799;
+    background-color: #415799a1;
     margin-bottom: 20px;
     -webkit-column-break-inside: avoid;
     padding: 24px;
