@@ -87,11 +87,11 @@ nav ul li a:hover{
 } */
 nav ul li.active,
 nav ul li:hover{
-  color: #1340c7;
+  color: #2346af;
 }
 
 .parallax1 {
-  background: url("cp-valravn-ridesbanner.jpg");
+  background: url("https://photos.smugmug.com/photos/i-VVqNQNB/0/X5/i-VVqNQNB-X5.jpg");
   min-height: 100%;
 
 }
@@ -125,23 +125,23 @@ nav ul li:hover{
 }
 .heading {
   position: absolute;
-  color: #fff;
+  color: #15328a;
   font-size: 550%;
-  top: 38%;
+  top: 32%;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 8px;
-  text-shadow: 0 0 10px #000;
+  text-shadow: 0 0 300px #000;
 }
 .heading2 {
   position: absolute;
-  color: #fff;
-  font-size: 150%;
-  top: 50%;
+  color: #19327e;
+  font-size: 170%;
+  top: 40%;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 8px;
-  text-shadow: 0 0 10px #000;
+  text-shadow: 0 0 300px #000;
 }
 .heading-sm {
   position: absolute;
