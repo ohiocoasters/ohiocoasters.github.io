@@ -1,275 +1,226 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Oswald|Poppins|Raleway|Roboto+Condensed|Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
-/* Style the header: fixed position (always stay at the top) */
-.header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: transparent;
-}
-
-
-body{
-  padding: 0px;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body, html {
+  height: 100%;
   margin: 0;
-  background-color: #141414;
-  overflow-x: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 180%;
+  color: #666;
+  text-align: center;
 }
-.parallax-window {
-  min-height: 100vh !important;
-  background: transparent;
-
-
+nav{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 60px;
+  box-sizing: border-box;
+  transition: .5s;
+  z-index: 5;
+  opacity: 1;
+  color: #fff;
 }
-.parallax-window1 {
-  min-height: 100vh !important;
-  background: transparent;
+a{
+  color:white;
+  text-decoration: none;
   
 }
+a:hover{
+color: #1340c7;
+transition: .5s;}
 
-
-
-.blurred-box{
-  position: relative;
-  width: 250px;
-  height: 350px;
-  top: calc(50% - 175px);
-  left: calc(50% - 125px);
-  background: inherit;
-  border-radius: 2px;
-  overflow: hidden;
+nav.black{
+  background: rgba(0,0,0,.8);
+  height: 80px;
+  padding: 10px 50px;
 }
-
-.blurred-box:after{
- content: '';
- width: 300px;
- height: 300px;
- background: inherit; 
- position: absolute;
- left: -25px;
- right: 0;
- top: -25px;  
- bottom: 0;
- box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
- filter: blur(10px);
+nav .logo{
+  float: left;
 }
-ul {
-  list-style-type: none;
+nav .logo img{
+  height: 80px;
+  transition: .5s;
+}
+nav.black .logo img{
+  height: 60px;
+}
+nav ul{
+  float: right;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
-  z-index: 1000;
+  display: flex;
 }
-
-li {
-  float: right;
-}
-
-li a {
-  font-family: 'Oswald', sans-serif;
-  display: block;
+nav ul li{
+  list-style: none;
+  margin-top: 25px;
+  line-height: none;
+  font-size: 18px;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 5px 15px;
   text-decoration: none;
-  transition-duration: 150ms
+  text-transform: uppercase;
+  transition: 1s;
+  text-shadow: 0 0 10px #000;
 }
-
-li a:hover {
-  background-color: #111;
-}
-
-
-.parallax-window:hover{
-  filter: blur(0px);
-}
-.parallax-mirror {
-  filter: blur(10px);
-}
-.foreGround{
-  background-color: black;
-  height: 500px;
-}
-.button{
+/* nav ul li a{
+  line-height: none;
+  font-size: 18px;
   color: white;
-  background: black;
-  mix-blend-mode: multiply;
-  perspective:1000px;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
+  padding: 5px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 1s;
+  text-shadow: 0 0 10px #000;
+} */
+
+/* nav.black ul li a{
+  color: #fff;
+  line-height: 20px;
+} */
+nav.black ul li{
+  color: #fff;
+  line-height: 20px;
+}
+/* nav ul li a.active,
+nav ul li a:hover{
+  color: orange;
+} */
+nav ul li.active,
+nav ul li:hover{
+  color: #1340c7;
 }
 
-#footer{
-  font-family: 'Oswald', sans-serif;
-  background-color: floralwhite;
-  color: #3a57af;
-  text-align: center;
-  padding: 2em;
-  font-size: 10pt;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.col {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-  color: white;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: 'Oswald', sans-serif;
-  font-size: 17px;
-}
-
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
+.parallax1 {
+  background: url("cp-valravn-ridesbanner.jpg");
   min-height: 100%;
-}
-
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.nav {
-  top: 0;  
-width:750px;
-position:stic ;
-margin:0 auto;
-list-style:none;
- font-size: 20pt;
-  font-family: 'Oswald', sans-serif;
-z-index: 2 !important;
-background-color: #1340c768;
-font-weight: heavy;
-}
-
-.nav li {
-float:left;
-
-font-weight: bold;
-
-
 
 }
-
-
-
-
-.nav a {
-display:block;
-text-align:center;
-width:150px; /* fixed width */
-
-
-text-decoration:none; 
-color: #ffffff
-
-
-
-
+.parallax2 {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/a/a1/Raging_Wolf_Bobs.png");
+  min-height: 60%;
 }
-
-.nav a:hover{
-background-color: #1340c759;
-outline: 5px solid rgba(255, 255, 255, 0.5);
-
-
+.parallax3 {
+  background: url("https://parkvault.files.wordpress.com/2016/08/banshee-kings-island-13.jpg");
+  min-height: 40%;
 }
-
-.logo {
-  margin-left: auto;
-  margin-right: auto;
-  height: 32%;
-  width: 12%;
-  background: transparent;
-  position: sticky;
-  display:block;
-
-  
+.parallax4 {
+  background: url("IMG_0647.JPG");
+  min-height: 60%;
 }
-
-.contactlogo{
-  padding: 10px 10px 10px 10px;
-  float: right;
-  height: 50px;
-  width: 50px;
+.parallax5 {
+  background: url("https://www.wvxu.org/sites/wvxu/files/styles/x_large/public/201909/vortex_0.jpeg");
+  min-height: 0%;
 }
-
-
-
-.welcometext{
-  font-size: 600%;
-  font-family: 'Oswald', sans-serif;
-  padding: 50px 50px 50px 175px;
-  font-weight: semi-bold; 
-  color:  #ffffff;
-  transition: top 0.2s ease-in-out;
-  width: 100%;
-    position:absolute;
-    display: show;
-
-
+.parallax6 {
+  background: url("https://www.abcgreatbeginnings.com/wp-content/uploads/2016/08/home-slide1-compressor-2560x1316.jpg");
+  min-height: 0%;
 }
-.welcomesubtext{
-  font-size: 220%;
-  font-family: 'Oswald', 
-  sans-serif;
-  position:absolute;
-  padding: 50px 50px 50px 175px;
-  color: #ffffff;
-    transition: top 0.2s ease-in-out;
-  width: 100%;
-
-
-}
-.indexbuttons{
-  background-color: #1340c7;
-  outline: 3px solid rgb(255, 255, 255);
-  font-family: 'Oswald';
-  width: 150px;
-  height: 50px;
-  font-size: 140%;
-  color: #ffffff;
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6 {
   position: relative;
-  top: 250px;
-  left: 200px;
-  
+  opacity: .75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.heading {
+  position: absolute;
+  color: #fff;
+  font-size: 550%;
+  top: 38%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px #000;
+}
+.heading2 {
+  position: absolute;
+  color: #fff;
+  font-size: 150%;
+  top: 50%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px #000;
+}
+.heading-sm {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  color: #fff;
+  font-size: 250%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #000;
+}
+.two-col{
+  width: 42%;
+  padding: 0 4%;
+  margin: auto;
+  font-size: 15pt;
+  align-items: center;
+  text-align: center;
+}
+section {
+  overflow: auto;
+  padding: 50px 80px;
+}
+.dark{
+  overflow: auto;
+  padding: 50px 80px;
+  background-color: #323232;
+  color: #f2f2f2;
+}
+@media (max-width: 900px){
+  nav ul li{
+    font-size: 12px;
+  }
+  .heading{
+    font-size: 250%;
+  }
+}
+@media (max-width: 600px){
+  .heading{
+    font-size: 250%;
+  }
+  .heading-sm{
+    font-size: 180%
+  }
+  .two-col {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li{
+    font-size: 8px;
+  }
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }

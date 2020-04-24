@@ -351,7 +351,7 @@ left: 20px ;
   }
 
   .banner{
-      height: 65%;
+      height: 100%;
       width: 105%;
       filter: blur(7px);
       position: relative;
