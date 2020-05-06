@@ -18,7 +18,7 @@ var pwd = document.getElementById('password');
 
 function login(){
 if (uname == "nicholasgardner" && pwd == "352970" || uname == "test" && pwd == "test");{
-    window.open("https://www.ohiocoasters.github.io/admindashboard.htm","_self")
+    window.open("www.ohiocoasters.cf/admindashboard.htm","_self")
 
 }
 
