@@ -91,7 +91,8 @@ nav ul li:hover{
 }
 
 .parallax1 {
-  background: url("_MG_0639.JPG ");
+  background: url("_MG_0639.JPG");
+
   min-height: 100%;
 
 }
@@ -125,18 +126,18 @@ nav ul li:hover{
 }
 .heading {
   position: absolute;
-  color: #15328a;
-  font-size: 550%;
+  color: #061d64;
+  font-size: 570%;
   top: 32%;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 8px;
-  text-shadow: 0 0 300px #000;
+  text-shadow: 0 0 900px #000;
 }
 .heading2 {
   position: absolute;
-  color: #19327e;
-  font-size: 170%;
+  color: #061d64;
+  font-size: 200%;
   top: 40%;
   width: 100%;
   text-transform: uppercase;
