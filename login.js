@@ -28,7 +28,7 @@ if (uname == "nicholasgardner" && pwd == "352970" || uname == "test" && pwd == "
 function autchkshp(){
 
     if (uname == "nicholasgardner" && pwd == "352970") {
-        window.open("https://my.ecwid.com/store/28557208#dashboard:wizard=tiles","_self")
+        window.open("","_self")
     } else {
         alert("Sorry, You dont have sufficent clearance to view this page")
         window.open("admindashboard.htm","_self")
