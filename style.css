@@ -118,7 +118,7 @@ nav ul li:hover{
 }
 .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6 {
   position: relative;
-  opacity: .75;
+  
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,7 +126,7 @@ nav ul li:hover{
 }
 .heading {
   position: absolute;
-  color: #061d64;
+  color: #ffffff;
   font-size: 570%;
   top: 32%;
   width: 100%;
@@ -136,7 +136,7 @@ nav ul li:hover{
 }
 .heading2 {
   position: absolute;
-  color: #061d64;
+  color: #ffffff;
   font-size: 200%;
   top: 40%;
   width: 100%;
