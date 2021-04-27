@@ -18,7 +18,7 @@ nav{
   transition: .5s;
   z-index: 5;
   opacity: 1;
-  color: #fff;
+  color: #1340c7;
 }
 a{
   color:white;
@@ -26,7 +26,7 @@ a{
   
 }
 a:hover{
-color: #1340c7;
+color: white;
 transition: .5s;}
 
 nav.black{
@@ -90,7 +90,7 @@ nav ul li:hover{
   color: #2346af;
 }
 
-#bannerimage{
+.bannerimage{
   width: 100%;
   background-image: url(milliebanner.jpg);
   height: 405px;
