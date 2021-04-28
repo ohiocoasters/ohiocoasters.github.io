@@ -17,8 +17,8 @@ nav{
   box-sizing: border-box;
   transition: .5s;
   z-index: 5;
-  opacity: 1;
-  color: #1340c7;
+  opacity: 100;
+  color: blue;
 }
 a{
   color:white;
@@ -26,7 +26,7 @@ a{
   
 }
 a:hover{
-color: white;
+color: #1340c7;
 transition: .5s;}
 
 nav.black{
@@ -90,10 +90,138 @@ nav ul li:hover{
   color: #2346af;
 }
 
-.bannerimage{
-  width: 100%;
-  background-image: url(milliebanner.jpg);
-  height: 405px;
-  background-color: purple;
+.parallax1 {
+  background: url("maggie.jpeg");
+
+  min-height: 100%;
+
+}
+.parallax2 {
+  background: url("Dive\ -.jpg");
+  min-height: 60%;
+}
+.parallax3 {
+  background: url("https://parkvault.files.wordpress.com/2016/08/banshee-kings-island-13.jpg");
+  min-height: 40%;
+}
+.parallax4 {
+  background: url("ttd\ trains.jpg");
+  min-height: 60%;
+}
+.parallax5 {
+  background: url("https://www.wvxu.org/sites/wvxu/files/styles/x_large/public/201909/vortex_0.jpeg");
+  min-height: 0%;
+}
+.parallax6 {
+  background: url("https://www.abcgreatbeginnings.com/wp-content/uploads/2016/08/home-slide1-compressor-2560x1316.jpg");
+  min-height: 0%;
+}
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6 {
+  position: relative;
+  
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.heading {
+  position: absolute;
+  color: #ffffff;
+  font-size: 570%;
+  top: 32%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 900px #000;
+}
+.heading2 {
+  position: absolute;
+  color: #ffffff;
+  font-size: 200%;
+  top: 40%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 300px #000;
+}
+.heading-sm {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  color: #fff;
+  font-size: 250%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #000;
+}
+.two-col{
+  width: 42%;
+  padding: 0 4%;
+  margin: auto;
+  font-size: 15pt;
+  align-items: center;
+  text-align: center;
+}
+section {
+  overflow: auto;
+  padding: 50px 80px;
+}
+.dark{
+  overflow: auto;
+  padding: 50px 80px;
+  background-color: #323232;
+  color: #f2f2f2;
+}
+@media (max-width: 900px){
+  nav ul li{
+    font-size: 12px;
+  }
+  .heading{
+    font-size: 250%;
+  }
+}
+@media (max-width: 600px){
+  .heading{
+    font-size: 250%;
+  }
+  .heading-sm{
+    font-size: 180%
+  }
+  .two-col {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li{
+    font-size: 8px;
+  }
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
